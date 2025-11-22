@@ -1,0 +1,63 @@
+##vs code is a ide. as also some other ide's are there like pycharm ,spyder etc.This is like a translation of code into machine language.
+
+
+##the perpous of print is to print something on the screen.
+## consol == terminal
+##if needed we  use end="" we can print second line in a same line. 
+"""print("Hello, This is the first program i running to know print ", end=""); print("Hlw")
+print("Hi!") 
+##we have to use a single ''or "" for print.(must) just not for only print it is for all english word (string)
+print('Comma'); print("Duble")
+## for any number not need to use cotation "".
+print(123)
+
+##we dont need to use Cotation "" when ever we use Any (variable)
+num=321
+print(num)
+
+## (Type) is used ofr seeing what is the datatype this is.
+num=25 #intejer
+num2=34.2 #float
+num3="Safwan" #char or string
+booleanVal= True #boolean
+
+print(type(num))
+print(type(num2))
+print(type(num3))
+print(type(booleanVal))"""
+
+## assingment oparetor 
+#=  +=  -=  *=  /=  //=  **=  %=
+#oparetor we can use anything on the varuable like sum but no need to write sum i can take anything like sum.
+""" num1=10
+num2=5
+
+sum = num1 - num2
+
+print(sum) """
+
+#for input from the keyboard // also when we have to input from keyboard the have to use datatype for numbers otherwise python take it as a string.
+"""name=input("Enter your name:")
+
+print("Hi ",name)
+
+num1=int (input ("Enter number:"))
+num2=int (input ("enter number"))
+sum=num1+num2
+print(sum)"""
+
+##write a program to sum 2 number num1 and num2 ,
+#  take it thoese number as user input and print the sum and its type
+
+num1=int(input("enter a number"))
+num2=int(input("enter a numer"))
+
+print("sum is:" , num1 + num2)
+print(type(num1 + num2))
+
+
+
+
+
+
+
