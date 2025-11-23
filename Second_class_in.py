@@ -4,7 +4,7 @@
 ##the perpous of print is to print something on the screen.
 ## consol == terminal
 ##if needed we  use end="" we can print second line in a same line. 
-"""print("Hello, This is the first program i running to know print ", end=""); print("Hlw")
+print("Hello, This is the first program i running to know print ", end=""); print("Hlw")
 print("Hi!") 
 ##we have to use a single ''or "" for print.(must) just not for only print it is for all english word (string)
 print('Comma'); print("Duble")
@@ -24,27 +24,27 @@ booleanVal= True #boolean
 print(type(num))
 print(type(num2))
 print(type(num3))
-print(type(booleanVal))"""
+print(type(booleanVal))
 
 ## assingment oparetor 
 #=  +=  -=  *=  /=  //=  **=  %=
 #oparetor we can use anything on the varuable like sum but no need to write sum i can take anything like sum.
-""" num1=10
+num1=10
 num2=5
 
 sum = num1 - num2
 
-print(sum) """
+print(sum) 
 
 #for input from the keyboard // also when we have to input from keyboard the have to use datatype for numbers otherwise python take it as a string.
-"""name=input("Enter your name:")
+name=input("Enter your name:")
 
 print("Hi ",name)
 
 num1=int (input ("Enter number:"))
 num2=int (input ("enter number"))
 sum=num1+num2
-print(sum)"""
+print(sum)
 
 ##write a program to sum 2 number num1 and num2 ,
 #  take it thoese number as user input and print the sum and its type
