@@ -113,8 +113,91 @@ print(f"My name is {name} My age is {age}")#this is when we use variable in one 
 
 
 #-==================QR code================================================
-""" import qrcode
+ import qrcode
 
 img = qecode.make("")
 img.save("name.png")
-img.show()"""
+img.show()
+
+#===========================homework solution=============================
+#1. Easy — Data Types Create three variables: ● an int ● a float ● a string Print each variable and also print their data types using type().
+
+my_integer = 10
+my_float = 3.14
+my_string = "Hello Python"
+
+print("Integer variable:", my_integer, "Type:", type(my_integer))
+print("Float variable:", my_float, "Type:", type(my_float))
+print("String variable:", my_string, "Type:", type(my_string))
+
+ 2. Easy — Arithmetic & Assignment Operators
+Take two numbers from the user using input(). Perform the following operations and print the results:
+● addition
+● subtraction
+● multiplication
+● division
+Then update the first number using += by 5 and print it. 
+
+num1=int(input("enter the number 1 "))
+num2=int(input("Enter the num2"))
+
+addition= num1 + num2
+
+subtraction= num1 - num2
+
+multiplication= num1 * num2
+
+divition= num1 / num2 
+
+num1 += 5
+
+print(f"updated num1 is {num1},\naddotion of two number is {addition}.\nsubtraction of two number is{subtraction},\nmultiplication of two number is {multiplication},\ndivition of two number is {divition}  ")
+
+3.Easy — Comparison & Logical Operators
+Write a program that checks:
+● if a number is greater than 10
+● AND less than 50
+Print True or False using logical operator and.
+num=int(input("Enter the number:"))
+
+print(num > 10 and num < 50 )
+
+
+4. Easy — String Practice
+Given the string:
+text = " Hello Python World "
+Do the following:
+● remove extra spaces
+● convert to uppercase
+● replace "Python" with "AI" Print the final result.
+text = " Hello Python World "
+
+print(text.strip())
+print(text.strip().upper())
+print(text.strip().replace("Python","AI"))
+
+Write a program that:
+1. Takes a sentence from the user.
+2. Check if the word "Python" is in the sentence.
+Create an expression and evaluate it: 2 + 3 * 4 - 10 / 2
+3.
+4. Print the value of the expression and explain why the result is what it is (based on operator precedence).
+
+
+# 1. Takes a sentence from the user.
+sentence = input("Enter a sentence: ")
+
+# 2. Check if the word "Python" is in the sentence.
+has_python = "Python" in sentence
+print(f"Does the sentence contain 'Python'? {has_python}")
+
+# 3. Create an expression and evaluate it: 2 + 3 * 4 - 10 / 2
+expression_result = 2 + 3 * 4 - 10 / 2
+
+# 4. Print the value of the expression and explain why the result is what it is (based on operator precedence).
+print(f"The value of the expression (2 + 3 * 4 - 10 / 2) is: {expression_result}")
+print("Explanation of the result based on operator precedence:")
+print("1. Multiplication (3 * 4) is performed first: 12")
+print("2. Division (10 / 2) is performed next: 5.0")
+print("3. Addition (2 + 12) is performed: 14")
+print("4. Subtraction (14 - 5.0) is performed last: 9.0")

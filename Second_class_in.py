@@ -57,7 +57,43 @@ print(type(num1 + num2))
 
 
 
+#=====================================home work=============================================
+"""  1. Write a program that takes two numbers from the user and prints their sum. (Easy)
+2. Write a program to take a user’s name and age and print: ( Medium) "Hello [name], you are [age] years old!"
+3. Create three variables (a, b, c) and print their average. (Easy)
+4. Convert a float number (e.g., 5.9) into an integer using type casting and print both values. (easy)
+5. Use operators to check if a number entered by the user is greater than 10 and print the result (True/False). (Hard)"""
 
+#1 
+num1=int(input("Enter the value of Number 1:"))
+num2=int(input("Enter the value of number 2:"))
 
+sum = num1 + num2
 
+print("The Sum of this two number is:",sum)
 
+#2
+name=input("Enter Your name:")
+age=int(input("enter your age:"))
+
+print(f"Hello {name},You are {age} old")
+
+#3
+First_Number=int(input("Enter the first number:"))
+Second_Number=int(input("Enter the seconf number:"))
+Third_Number=int(input("Enter the third Number:"))
+
+Avarage= (First_Number + Second_Number + Third_Number)/ 3
+
+print("The avarage Number is ",Avarage)
+
+#4
+X= 5.7
+y=int(X)
+z=float(y)
+
+print(f"The value of float was{X},Now the value of x in intizer is {y} ")
+
+#5
+number=int(input("enter a number that greter then 10:"))
+print(number > 10)
