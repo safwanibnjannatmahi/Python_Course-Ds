@@ -172,7 +172,7 @@ Do the following:
 ● replace "Python" with "AI" Print the final result."""  
 text = " Hello Python World "
 
-print(text.strip())
+print(text.strip())   #strip() mainly use for remove extra space//
 print(text.strip().upper())
 print(text.strip().replace("Python","AI"))
 
